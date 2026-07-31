@@ -1,4 +1,4 @@
 package br.com.banco.service;
 
-public class Banco {
+public class Bank {
 }

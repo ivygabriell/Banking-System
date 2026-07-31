@@ -1,4 +1,4 @@
 package br.com.banco.model;
 
-public class Cliente {
+public class SavingsAccount {
 }

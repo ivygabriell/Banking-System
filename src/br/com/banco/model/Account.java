@@ -1,4 +1,4 @@
 package br.com.banco.model;
 
-public class ContaPoupança {
+public class Account {
 }

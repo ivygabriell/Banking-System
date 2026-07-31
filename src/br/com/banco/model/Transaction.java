@@ -1,4 +1,4 @@
 package br.com.banco.model;
 
-public class Transacao {
+public class Transaction {
 }
