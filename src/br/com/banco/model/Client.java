@@ -13,11 +13,13 @@ public class Client {
     public Client(String name, String cpf, LocalDate dateOfBirth, String telephoneNumber, String email) {
         this.name = name;
 
+        /*
         if (isValidCpf(cpf)){
             this.cpf = cpf;
         }else {
             throw new IllegalArgumentException("CPF invalido");
         }
+         */
 
         this.dateOfBirth = dateOfBirth;
         this.telephoneNumber = telephoneNumber;
@@ -56,8 +58,11 @@ public class Client {
         this.email = email;
     }
 
+    /*
     private boolean isValidCpf(String cpf) {
+        return false;
     }
+     */
 
     @Override public String toString() {
         return "Client{" +
