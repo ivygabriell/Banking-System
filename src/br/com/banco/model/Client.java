@@ -60,7 +60,21 @@ public class Client {
 
 
     private boolean isValidCpf(String cpf) {
-        return false;
+        if (cpf == null) return false;
+        String cleanCpf = cpf.replace(".", "").replace("-", "");
+        return cleanCpf.matches("\\d{11}");
+    }
+
+    private boolean hasAllDigitsEqual(String cpf) {
+        char firstDigit = cpf.charAt(0);
+
+        for (int index = 1; index < cpf.length(); index++) {
+            if (cpf.charAt(index) != firstDigit) {
+                return false;
+            }
+        }
+
+        return true;
     }
 
 
