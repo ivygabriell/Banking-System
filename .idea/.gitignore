@@ -9,4 +9,4 @@
 /dataSources/
 /dataSources.local.xml
 # Project data
-/private/
+/src/private/
